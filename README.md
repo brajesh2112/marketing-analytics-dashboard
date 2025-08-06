@@ -1,44 +1,31 @@
 # 📊 Marketing Analytics Dashboard
 
-An interactive Streamlit dashboard that helps businesses explore **customer segmentation**, **lifetime value estimation**, **market basket analysis**, and **A/B testing simulations** using machine learning techniques. This project demonstrates how marketing insights can be derived from customer data to boost retention, upsell opportunities, and campaign performance.
+An interactive Streamlit-based dashboard that offers comprehensive marketing insights using machine learning and data visualization techniques. This tool enables businesses to analyze **Customer Lifetime Value (CLV)**, perform **Customer Segmentation**, uncover **Cross-Selling Opportunities** via Market Basket Analysis, and simulate **A/B Testing** strategies.
 
 ---
 
-## 📈 Key Features
+## 🚀 Features
 
-### 1. 🛒 **Customer Lifetime Value (CLV) Prediction**
-- Predict CLV using tenure and monthly charges
-- Simulate new customer CLV via sidebar inputs
-
-### 2. 🎯 **Customer Segmentation**
-- KMeans clustering based on customer spending behavior
-- Segments: Low Spend, Medium Spend, High Spend
-- Pie chart visualization with tailored marketing strategies
-
-### 3. 🔗 **Market Basket Analysis**
-- Frequent itemset mining with the Apriori algorithm
-- Generate association rules to uncover cross-sell and upsell opportunities
-- Example: If a user has StreamingTV, suggest StreamingMovies
-
-### 4. 🧪 **A/B Testing Simulator**
-- Compare conversion outcomes between two marketing strategies:
-  - Discount Offer
-  - Premium Support
-- Visualize which strategy performs better using simulated data
+- **CLV Prediction**: Forecast customer lifetime value using linear regression.
+- **Customer Segmentation**: Group customers using K-Means clustering for targeted marketing.
+- **Market Basket Analysis**: Identify cross-sell opportunities with Apriori algorithm.
+- **A/B Testing Simulation**: Simulate and visualize marketing experiments with conversion metrics.
+- **Dashboard Overview**: Executive summary of key performance indicators.
 
 ---
 
-## 📊 Dataset Used
+## 📁 Files Included
 
-- **Dataset Name**: Churn_pred.csv
-- **Origin**: Based on telecom customer behavior
-- **Example Source**: [Kaggle - Website Traffic Dataset](https://www.kaggle.com/datasets/rashadrmammadov/customer-churn-dataset)
+- `churn.py`: Streamlit app source code.
+- `Churn_pred.csv`: Sample dataset (replace with your own customer churn data).
+- `requirements.txt`: List of dependencies.
 
 ---
 
-## 🚀 How to Run
+## 🛠️ Installation & Usage
 
-### Prerequisites:
-Install required packages:
+### 🔧 1. Clone the Repository
+
 ```bash
-pip install streamlit pandas numpy matplotlib seaborn scikit-learn mlxtend
+git clone https://github.com/your-username/Marketing-Analytics-Dashboard.git
+cd Marketing-Analytics-Dashboard
